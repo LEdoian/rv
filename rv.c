@@ -3,7 +3,7 @@
 
 int main (int argc, char *argv[]){
 
-char string[1000]; //This needs to be changed as soon as I have my book back :)
+char string[1000] = {"\0"}; //This needs to be changed as soon as I have my book back :)
 int i;
 
 for( i=1; i < argc; i++){
