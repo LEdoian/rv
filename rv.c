@@ -9,7 +9,7 @@ int i;
 for( i=1; i < argc; i++){
 	sprintf(string, "%s %s", string, argv[i]);
 	}
-printf("%s\n", string);
-//fprintf(stderr, "\nReturn value: %d\n", system(string));
+//printf("%s\n", string);    //That was just debug, it should be deleted
+fprintf(stderr, "\nReturn value: %d\n", system(string));
 return EXIT_SUCCESS;
 }
