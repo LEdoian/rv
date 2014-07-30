@@ -1,9 +1,0 @@
-Doplnìní mého algoritmu pro závorky - spoèítání poètu:
-pocet(n):
-	if n==1: return 1;
-	else:	for i od 1 do n-1
-			vysledek += pocet(i) * pocet(n-i) /*spojení dvou kratších øetìzcù závorek*/
-		vysledek += 1		/*speciální pøípad: obkolení n-1 dvojic závorek další závorkou*/
-		return vysledek;
-
-/*Možná to není rychlejší, než vyhledávání pøes binární strom, ale je to jiné a nezávislé.*/
