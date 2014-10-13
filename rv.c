@@ -5,7 +5,6 @@
 int main (int argc, char *argv[]){
 
 int i;					/*For for cycles*/
-int q = 0;				/*for swapping between the two "strings"*/
 int sizeofstring = 0;
 
 for(i = 1; i < argc; i++){
